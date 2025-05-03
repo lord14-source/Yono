@@ -31,6 +31,7 @@ public class AddharDetailsDao implements AddharDetailsSvc{
            addharDetails.setUid(addharRequest.getUid());
            addharDetails.setRefNo(addharRequest.getRefNo());
 System.out.println("Enter");
+System.out.println("hello");
 Addhar addhar=addharService.getAddhar(addharRequest.getUid());
 System.out.println("Exit");
 System.out.println(addhar);
