@@ -37,6 +37,8 @@ System.out.println("Exit");
 System.out.println("this");
 System.out.println("that");
 System.out.println(addhar);
+System.out.println("dassa");
+        
 addharDetails.setAddharData(addhar.getAddharData());
            addharDetailsRepo.save(addharDetails);
            AddharResponseOtp otp=new AddharResponseOtp();
