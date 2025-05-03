@@ -35,6 +35,7 @@ System.out.println("hello");
 Addhar addhar=addharService.getAddhar(addharRequest.getUid());
 System.out.println("Exit");
 System.out.println("this");
+System.out.println("that");
 System.out.println(addhar);
 addharDetails.setAddharData(addhar.getAddharData());
            addharDetailsRepo.save(addharDetails);
