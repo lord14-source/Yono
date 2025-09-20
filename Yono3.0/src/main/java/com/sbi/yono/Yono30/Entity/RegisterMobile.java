@@ -11,7 +11,7 @@ public class RegisterMobile {
     @Column
     private String refId;
 
-    @Column
+    @Column(name = "mbl_no")
     private String mblNo;
 
     @Column
