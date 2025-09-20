@@ -8,4 +8,4 @@ import java.util.Optional;
 
 @Repository
 public interface RegisterMobileRepo extends JpaRepository<com.sbi.yono.Yono30.Entity.RegisterMobile,String> {
-    Optional<RegisterMobile> findBymblNo(String mobileNumber);}
+    Optional<RegisterMobile> findByMblNo(String mobileNumber);}

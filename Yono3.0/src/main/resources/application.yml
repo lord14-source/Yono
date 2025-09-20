@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8089
 
 spring:
   datasource:
@@ -7,15 +7,32 @@ spring:
     username: postgres
     password: Rm@#12345
     driver-class-name: org.postgresql.Driver
+  cache:
+    type: simple
 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
 
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+
+
+
 # Feign client config for Aadhaar Service
 addhar-service:
   url: http://localhost:8086/AddharService
+
+otp-service:
+  url: http://localhost:8087/OTP
 
 feign:
   client:

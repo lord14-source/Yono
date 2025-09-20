@@ -6,5 +6,7 @@ public interface RegisterMobileSvc {
 
     public String create(RegisterMobile registerMobile);
     public RegisterMobile getMobile(String mblNo);
+    public RegisterMobile getById(String Id);
+
 
 }
