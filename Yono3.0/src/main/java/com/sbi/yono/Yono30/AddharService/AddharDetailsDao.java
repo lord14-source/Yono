@@ -42,7 +42,7 @@ Addhar addhar=addharService.getAddhar(addharRequest.getUid());
 OTP data= otpService.get(addharRequest.getUid());
 System.out.println("DATA"+data);
 
-System.out.println("Exit");
+System.out.println("Exittt");
 System.out.println("this");
 System.out.println("that");
 System.out.println(addhar);
